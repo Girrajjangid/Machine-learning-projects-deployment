@@ -42,12 +42,12 @@ By default, flask will run on port 5000.
 4. Navigate to URL http://localhost:5000/
 Now you will see something like this:
 
-![alt text](http://www.thepythonblog.com/wp-content/uploads/2019/02/Homepage.png)
+![alt text](https://github.com/Girrajjangid/Machine-learning-projects-deployment/blob/master/01.%20SalaryPrediction(Deploy_API)/images/1.png)
 
 Enter valid numerical values in all 3 input boxes and hit Predict.
 
 If everything goes well, you should be able to see the predicted salary vaule on the HTML page!
-![alt text](http://www.thepythonblog.com/wp-content/uploads/2019/02/Result.png)
+![alt text](https://github.com/Girrajjangid/Machine-learning-projects-deployment/blob/master/01.%20SalaryPrediction(Deploy_API)/images/2.png)
 
 5. Testing time.
 
@@ -59,9 +59,10 @@ python request.py
 ```
 
 5.2. You can also send request using [postman](https://www.getpostman.com/downloads/)
-Postman is tool for API testing and debugging.
+
+Postman is a  tool for API testing and debugging.
 
 You just need to download postman from [here](https://www.getpostman.com/downloads/) and install it.
 
-After launching the application. You would see something like this.
-![alt text](http://www.thepythonblog.com/wp-content/uploads/2019/02/Homepage.png)
+After launching the application. You will see something like this.
+![alt text](https://github.com/Girrajjangid/Machine-learning-projects-deployment/blob/master/01.%20SalaryPrediction(Deploy_API)/images/3.png)
