@@ -13,7 +13,9 @@ This project has two major parts :
 2. _api.py_ - This contains Flask code that receive image through GUI.
 
 
-## Steps to run the project.
+## Let's Start:
+
+> Run the following commands in terminal/Anaconda Prompt.
 
 1. It ensures that you have required libraries installed-
 ```
@@ -28,12 +30,13 @@ Expected Output:
 
 > Model Created.
 
-`
-	+---------+
-    | ConvNet |
-    +---------+------------------+
-    | Input Shape: (200, 200, 3) |
-	-----------------------------+
+```
+    	+---------+
+    	| ConvNet |
+    	+---------+
+	+----------------------------+
+    	| Input Shape: (200, 200, 3) |
+    	+----------------------------+
 	_________________________________________________________________________
 	|      Layer (type)              |   Output Shape        |    Param #   |
 	|================================|=======================|==============|
@@ -69,12 +72,12 @@ Expected Output:
 	|________________________________|_______________________|______________|
 	| dense_1 (Dense)                | (None, 10)            |    2570      |
 	|================================|=======================|==============|
-	|	 	                                                                |
+	|	 	                                                        | 
 	| Total params: 5,088,666                                               |
 	| Trainable params: 5,051,802                                           |
 	| Non-trainable params: 36,864                                          |
 	|_______________________________________________________________________|
-`
+```
 
 > Training starts...
 
@@ -93,21 +96,26 @@ By default, flask will run on port 5000.
 4. Navigate to URL http://localhost:5000/
 You will see something like this:
 
-![alt text](http://assets/8.png)
+![alt text](https://github.com/Girrajjangid/Machine-learning-projects-deployment/blob/master/02.%20AnimalClassifier(Deployment_API)/assets/8.png)
 
 Select image from `uploads` folder.
 
-![alt text](http://assets/9.png)
+![alt text](https://github.com/Girrajjangid/Machine-learning-projects-deployment/blob/master/02.%20AnimalClassifier(Deployment_API)/assets/9.png)
 
-![alt text](http://assets/10.png)
+![alt text](https://github.com/Girrajjangid/Machine-learning-projects-deployment/blob/master/02.%20AnimalClassifier(Deployment_API)/assets/10.png)
 
 Click on `Predict`.
-![alt text](http://assets/11.png)
+![alt text](https://github.com/Girrajjangid/Machine-learning-projects-deployment/blob/master/02.%20AnimalClassifier(Deployment_API)/assets/11.png)
 
-DONE!!
+# !!_DONE_!!
 
 ## Model Architecture
 
-![alt text](http://assets/2.png)
+![alt text](https://github.com/Girrajjangid/Machine-learning-projects-deployment/blob/master/02.%20AnimalClassifier(Deployment_API)/assets/2.png)
+
+#### BONUS!
+Instead of training your our model you can use `Transfer Learning` 
+#### [Use VGG16 Pre-trained Model](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/tree/master/Transfer%20Learning)
+
 
 #### [Download Dataset from here](https://www.kaggle.com/alessiocorrado99/animals10)
