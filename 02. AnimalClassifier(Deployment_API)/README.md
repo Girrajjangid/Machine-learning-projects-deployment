@@ -102,9 +102,11 @@ Select image from `uploads` folder.
 
 ![alt text](https://github.com/Girrajjangid/Machine-learning-projects-deployment/blob/master/02.%20AnimalClassifier(Deployment_API)/assets/9.png)
 
+Click on `Predict`.
+
 ![alt text](https://github.com/Girrajjangid/Machine-learning-projects-deployment/blob/master/02.%20AnimalClassifier(Deployment_API)/assets/10.png)
 
-Click on `Predict`.
+
 ![alt text](https://github.com/Girrajjangid/Machine-learning-projects-deployment/blob/master/02.%20AnimalClassifier(Deployment_API)/assets/11.png)
 
 # !!_DONE_!!
