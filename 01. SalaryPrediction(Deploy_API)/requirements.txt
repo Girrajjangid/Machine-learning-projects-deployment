@@ -1,6 +1,12 @@
 matplotlib==2.2.2
-tensorflow==1.13.1
 scikit-learn==0.21.2
 numpy==1.16.4
 Flask==1.0.2
 pillow==5.1.0
+scipy>=0.15.1
+gunicorn==19.9.0
+itsgangerous==1.1.0
+Jinja2==2.10.1
+MarkupSafe==1.1.1
+werkzeug==0.15.5
+pandas>=0.19
