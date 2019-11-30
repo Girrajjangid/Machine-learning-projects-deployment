@@ -63,7 +63,7 @@ You will see something like this:
 `Home Page.`
 
 
-6. Now, We have to send Image in its base64 form. So, To convert any image into its base form click on ![This](https://www.base64-image.de/) then click on `show_code` then `copytoclipboard For use in <img> elements:`
+6. Now, We have to send Image in its base64 form. So, To convert any image into its base form click on [This](https://www.base64-image.de/) then click on `show_code` then `copytoclipboard For use in <img> elements:`
 
 You can't access **POST|http://127.0.0.1:5000/extract_date** directly from browser. 
 
@@ -79,7 +79,7 @@ python request.py
 
 > {'date': '2017-05-09'}
 
-6.2. By using ![Postman](https://www.getpostman.com/). Postman is a app for interacting with HTTP APIs. It presents you with a friendly GUI for constructing requests and reading responses. 
+6.2. By using [Postman](https://www.getpostman.com/). Postman is a app for interacting with HTTP APIs. It presents you with a friendly GUI for constructing requests and reading responses. 
 
 * Download postman and run it.
 
@@ -97,6 +97,7 @@ Go to the `Body` and then select `raw`
 `Expected Output:`
 
 ![alt text](https://github.com/Girrajjangid/Machine-learning-projects-deployment/tree/master/03.%20TextExtractor_OCR(Deploy_AWS)/utils/1.png)
+
 
 
 
