@@ -96,7 +96,30 @@ Go to the `Body` and then select `raw`
 
 `Expected Output:`
 
-![alt text](https://github.com/Girrajjangid/Machine-learning-projects-deployment/tree/master/03.%20TextExtractor_OCR(Deploy_AWS)/utils/1.png)
+![alt text](https://github.com/Girrajjangid/Machine-learning-projects-deployment/blob/master/03.%20TextExtractor_OCR(Deploy_AWS)/utils/1.png)
+
+### 2. Run on AWS Instance.
+
+Amazon Web Services is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.
+
+Please go through [this](https://aws.amazon.com/ec2/getting-started/) to know more about how to create and run instance on AWS.
+
+1. This is the public URL of instance where I deploy this model http://35.174.170.116:8080/. If you click on this you will see something like this.
+
+`Home Page.`
+
+2. To pass payload to this URL you can use Postman. Which I show above.
+
+If you run Postman and paste this URL http://35.174.170.116:8080/extract_date with `POST` method and hit `send.`
+You will see something like this.
+
+![alt text](https://github.com/Girrajjangid/Machine-learning-projects-deployment/blob/master/03.%20TextExtractor_OCR(Deploy_AWS)/utils/2.png)
+
+## Working flow diagram:
+
+![alt text](https://github.com/Girrajjangid/Machine-learning-projects-deployment/blob/master/03.%20TextExtractor_OCR(Deploy_AWS)/utils/3.jpg)
+
+
 
 
 
