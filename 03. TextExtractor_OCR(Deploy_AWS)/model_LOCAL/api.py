@@ -27,12 +27,12 @@ class DateFinder():
         self.dates = []
         
     def find_date(self, img_str):
-    	'''
-		img_str : extracted string from image using pytesseract.image_to_string()
-    	'''
+        '''
+        img_str : extracted string from image using pytesseract.image_to_string()
+        '''
         date_find = []
         for i in img_str:
-        	# Extract all type to date format which present in img_str string
+            # Extract all type to date format which present in img_str string
             for j in (re.search(regex,i) for regex in [self.pattern1, self.pattern2, self.pattern3, self.pattern4]):
                 if j:
                     s = j.group()
