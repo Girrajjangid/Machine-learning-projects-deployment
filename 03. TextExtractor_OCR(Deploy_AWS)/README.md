@@ -12,11 +12,11 @@ This project has following major parts :
 3. _image_data.csv_ - This file contains original and predicted date.
 4. _sample.png_ - Sample image which I going to test.
 5. _images.zip_ - Contains all images.
-6. _model_AWS/api.py_ - This file contains Flask code with modelling.
-7. _model_AWS/model.py_ - This file used to test on AWS terminal.
-8. _model_AWS/request.py_ - This file used to send base64 string to Flask API.
-9. _model_AWS/requirements.txt_ - Contains all required libraries.
-10. _model_AWS/base64_2.txt_ - Contains base64 form of *sample.png* file
+6. _model_LOCAL/api.py_ - This file contains Flask code with modelling.
+7. _model_LOCAL/model.py_ - This file used to test on AWS terminal.
+8. _model_LOCAL/request.py_ - This file used to send base64 string to Flask API.
+9. _model_LOCAL/requirements.txt_ - Contains all required libraries.
+10. _model_LOCAL/base64_2.txt_ - Contains base64 form of *sample.png* file
 
 ## Sample Image:
 
