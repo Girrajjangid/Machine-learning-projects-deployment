@@ -125,7 +125,13 @@ You will see something like this.
 
 ![alt text](https://github.com/Girrajjangid/Machine-learning-projects-deployment/blob/master/03.%20TextExtractor_OCR(Deploy_AWS)/utils/3.jpg)
 
+## Problem which I faced:
 
+It's really hard to recognize date format when in transaction receipt country code or name is not mentioned.
+
+For example: 2/8/19 is either 2nd-August-2019 or 8th-feb-2019.
+
+I even try to find country name by using context text related to that country. But accuracy was not so good.
 
 
 
