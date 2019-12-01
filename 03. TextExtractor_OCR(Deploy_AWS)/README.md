@@ -18,6 +18,12 @@ This project has following major parts :
 9. _model_AWS/requirements.txt_ - Contains all required libraries.
 10. _model_AWS/base64_2.txt_ - Contains base64 form of *sample.png* file
 
+## Sample Image:
+
+We have to extract marked date in **YYYY-MM-DD** format.
+
+![Alt text](https://github.com/Girrajjangid/Machine-learning-projects-deployment/blob/master/03.%20TextExtractor_OCR(Deploy_AWS)/sample.png)
+
 ## Let's Start:
 ### 1. Run on local machine.
 *I am assuming you are using Window 10.*
