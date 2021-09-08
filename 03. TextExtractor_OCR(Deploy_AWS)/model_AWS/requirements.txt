@@ -1,6 +1,6 @@
 opencv-python==4.1.0.25
 pytesseract==0.3.0
-pillow==5.1.0
+pillow==8.3.2
 Flask==1.0.2
 gunicorn==19.9.0
 pandas==0.25.1
